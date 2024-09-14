@@ -2,13 +2,13 @@
   import Club from './cmpt.svelte';
   // import logo from "$lib/assets/logo.png";
   // import logo from "$lib/assets/logo.png";
-  import image3 from "$lib/assets/image3.png";
-  import image4 from "$lib/assets/image4.png";
+  import cognifai from "$lib/assets/cognifai.png";
+  import finance from "$lib/assets/finance.png";
+  import robotics from "$lib/assets/robotics.png";
+  import yacc from "$lib/assets/yacc.png";
+  import stellar from "$lib/assets/stellar.png";
   import image5 from "$lib/assets/image5.png";
-  import image6 from "$lib/assets/image6.png";
-  import image7 from "$lib/assets/image7.png";
-  import image8 from "$lib/assets/image8.png";
-  const images = [image3, image4, image5, image6, image7, image8];
+  const images = [cognifai, finance, robotics, yacc, stellar, image5];
 </script>
 
 <div class="container">
@@ -21,7 +21,7 @@
     <!-- Circular components around the central club -->
     {#each Array(6) as _, i}
       <div
-        class="club"
+        class={`club ${i}`}
         style="
           transform: rotate({i * 60}deg) translateY(280%) rotate(-{i * 60}deg);
           position: absolute;
@@ -36,8 +36,8 @@
 <style>
   
   .container {
-    width: 100vw;
-    height: 100vh;
+    /* width: 100vw; */
+    height: 90vh;
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -96,7 +96,16 @@
     align-items: center;
     border: 2px solid darkblue;
     position: absolute;
-    z-index: 1; 
+    z-index: 1;
+    transition: all 0.2s ease-in-out;
+    animation: scatter 1s ease-in-out forwards;
+    cursor: pointer;
+  }
+
+  @keyframes scatter{
+    0%{
+      transform: rotate(0deg);
+    }
   }
 
   @media (max-width: 600px) {

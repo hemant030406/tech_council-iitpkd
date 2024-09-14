@@ -1,8 +1,8 @@
 <script>
-	import logo from "$lib/assets/logo.png";
+	import logo from "$lib/assets/sacLogo.png";
 	import EventCard from "$lib/components/EventCard.svelte";
-	import cardLogo from "$lib/assets/img1.png";
-	import cornerLogo from "$lib/assets/img2.png";
+	import cardLogo from "$lib/assets/freshman.png";
+	import cornerLogo from "$lib/assets/clubLogo.png";
 	const events = [
 		{
 			cardLogo: cardLogo,

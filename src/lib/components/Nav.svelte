@@ -1,15 +1,22 @@
 <script lang="ts">
-    import logo from "$lib/assets/logo.png";
+    import logo from "$lib/assets/sacLogo.png";
+    import { onMount } from "svelte";
     var ele: HTMLElement;
     const handleClick = (e: Event) => {
-        if(ele){
-            ele.style.backgroundColor = '#323232';
+        let others = document.getElementsByTagName("a");
+        for (let i = 0; i < others.length; i++) {
+            (others[i] as HTMLElement).style.backgroundColor = "#323232";
         }
-        ele = e.target as HTMLElement
-        if(ele.classList[0] != 'logo-container'){
-            ele.style.backgroundColor = '#3199c0'
+        ele = e.target as HTMLElement;
+        if (ele.classList[0] != "logo-container") {
+            ele.style.backgroundColor = "#3199c0";
         }
-    }
+    };
+    onMount(() => {
+        let url = window.location.pathname.slice(1);
+        let ele = document.querySelector(`.${url}`) as HTMLElement;
+        ele.style.backgroundColor = "#3199c0";
+    });
 </script>
 
 <div class="navholder">
@@ -21,13 +28,19 @@
             ></div>
         </a>
         <a href="/clubs" class="clubs" on:click={handleClick}>Clubs</a>
-        <a href="/upcoming_events" class="upcoming_events" on:click={handleClick}>Upcoming Events</a>
-        <a href="/contact_us" class="contact_us" on:click={handleClick}>Contact Us</a>
+        <a
+            href="/upcoming_events"
+            class="upcoming_events"
+            on:click={handleClick}>Upcoming Events</a
+        >
+        <a href="/contact_us" class="contact_us" on:click={handleClick}
+            >Contact Us</a
+        >
     </div>
 </div>
 
 <style>
-    a{
+    a {
         padding: 0.5rem;
         border-radius: 15px;
     }

@@ -47,7 +47,7 @@
         border: 2px solid #554b87;
         border-radius: 10px;
         margin-top: 4rem;
-        animation: scatter 1.2s ease-in-out forwards;
+        animation: scatter 0.8s ease-in-out forwards;
         transition: all 0.5s ease-in-out;
     }
     @keyframes scatter {
@@ -58,7 +58,6 @@
 
         100% {
             opacity: 1;
-            transform: translate(0, 0) rotate(0deg);
         }
     }
     .crd {
