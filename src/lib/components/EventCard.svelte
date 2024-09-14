@@ -1,20 +1,18 @@
 <script lang="ts">
-    import logo from "$lib/assets/logo.png";
-    import mainImage from "$lib/assets/img1.png";
-    import cornerImage from "$lib/assets/img2.png";
+    export let logo, cornerLogo, date;
 </script>
 
 <div class="card">
     <div class="top-left-corner-logo">
-        <div class="logo" style="background-image: url({cornerImage});"></div>
-        <div class="date">17 Aug</div>
+        <div class="logo" style="background-image: url({cornerLogo});"></div>
+        <div class="date">{date}</div>
     </div>
     <div class="crd">
-        <div class="inner-card" style="background-image: url({mainImage});"></div>
+        <div class="inner-card" style="background-image: url({logo});"></div>
     </div>
     <div class="bottom-right-corner-logo">
-        <div class="logo" style="background-image: url({cornerImage});"></div>
-        <div class="date">17 Aug</div>
+        <div class="logo" style="background-image: url({cornerLogo});"></div>
+        <div class="date">{date}</div>
     </div>
 </div>
 
@@ -49,6 +47,19 @@
         border: 2px solid #554b87;
         border-radius: 10px;
         margin-top: 4rem;
+        animation: scatter 1.2s ease-in-out forwards;
+        transition: all 0.5s ease-in-out;
+    }
+    @keyframes scatter {
+        0% {
+            opacity: 0;
+            transform: translate(-50%, -50%) scale(0.2) rotate(-60deg);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translate(0, 0) rotate(0deg);
+        }
     }
     .crd {
         display: flex;
@@ -71,7 +82,6 @@
         width: 100%;
         height: 100%;
         background-repeat: no-repeat;
-        /* border: 1.5px solid #554b87; */
         border-radius: 10px;
     }
 </style>
