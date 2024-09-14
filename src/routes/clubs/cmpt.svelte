@@ -13,11 +13,11 @@
   
   <style>
     .club {
-      width: 14vw;  /* 30% of the viewport width */
-        height: 14vw; /* Keep it proportional to width for a circle */
-        max-width: 160px; /* Maximum size of the circle */
+      width: 14vw;  
+        height: 14vw; 
+        max-width: 160px; 
         max-height: 160px;
-        min-width: 80px; /* Minimum size of the circle */
+        min-width: 80px;
         min-height: 80px;
       border-radius: 50%;
       background-color: #0a0a0a;
