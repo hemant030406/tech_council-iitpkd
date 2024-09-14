@@ -87,4 +87,25 @@
 		width: 60%;
 		font-family: "Roboto";
 	}
+
+	@media (max-width: 650px){
+		h1{
+			font-size: 250%;
+			width: 50%;
+		}
+		.logo{
+			width: 10rem;
+			height: 10rem;
+		}
+	}
+	@media (max-width: 500px){
+		h1{
+			font-size: 170%;
+			width: 50%;
+		}
+		.logo{
+			width: 8rem;
+			height: 8rem;
+		}
+	}
 </style>

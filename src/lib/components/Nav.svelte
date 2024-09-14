@@ -14,8 +14,10 @@
     };
     onMount(() => {
         let url = window.location.pathname.slice(1);
-        let ele = document.querySelector(`.${url}`) as HTMLElement;
-        ele.style.backgroundColor = "#3199c0";
+        if(url){
+            let ele = document.querySelector(`.${url}`) as HTMLElement;
+            ele.style.backgroundColor = "#3199c0";
+        }
     });
 </script>
 
