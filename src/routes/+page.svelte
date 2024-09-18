@@ -3,6 +3,7 @@
 	import EventCard from "$lib/components/EventCard.svelte";
 	import cardLogo from "$lib/assets/freshman.webp";
 	import cornerLogo from "$lib/assets/clubLogo.webp";
+    import Carousel from "$lib/components/Carousel.svelte";
 	const events = [
 		{
 			cardLogo: cardLogo,
@@ -37,7 +38,7 @@
 	];
 </script>
 
-<div class="main">
+<div class="main">	
     <div class="header">
         <!-- <div class="logo" style="background-image: url({logo});"></div> -->
         <div class="text">
@@ -45,6 +46,7 @@
             <p>Indian Institute of Technology, Palakkad</p>
         </div>
     </div>
+	<Carousel/>
     <div class="events">
         {#each events as e}
             <EventCard
