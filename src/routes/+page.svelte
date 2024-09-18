@@ -1,40 +1,40 @@
 <script>
-    import logo from "$lib/assets/sacLogo.png";
-    import EventCard from "$lib/components/EventCard.svelte";
-    import cardLogo from "$lib/assets/freshman.png";
-    import cornerLogo from "$lib/assets/clubLogo.png";
-    const events = [
-        {
-            cardLogo: cardLogo,
-            cornerLogo: cornerLogo,
-            date: "17 Aug",
-        },
-        {
-            cardLogo: cardLogo,
-            cornerLogo: cornerLogo,
-            date: "17 Aug",
-        },
-        {
-            cardLogo: cardLogo,
-            cornerLogo: cornerLogo,
-            date: "17 Aug",
-        },
-        {
-            cardLogo: cardLogo,
-            cornerLogo: cornerLogo,
-            date: "17 Aug",
-        },
-        {
-            cardLogo: cardLogo,
-            cornerLogo: cornerLogo,
-            date: "17 Aug",
-        },
-        {
-            cardLogo: cardLogo,
-            cornerLogo: cornerLogo,
-            date: "17 Aug",
-        },
-    ];
+	import logo from "$lib/assets/sacLogo.webp";
+	import EventCard from "$lib/components/EventCard.svelte";
+	import cardLogo from "$lib/assets/freshman.webp";
+	import cornerLogo from "$lib/assets/clubLogo.webp";
+	const events = [
+		{
+			cardLogo: cardLogo,
+			cornerLogo: cornerLogo,
+			date: "17 Aug",
+		},
+		{
+			cardLogo: cardLogo,
+			cornerLogo: cornerLogo,
+			date: "17 Aug",
+		},
+		{
+			cardLogo: cardLogo,
+			cornerLogo: cornerLogo,
+			date: "17 Aug",
+		},
+		{
+			cardLogo: cardLogo,
+			cornerLogo: cornerLogo,
+			date: "17 Aug",
+		},
+		{
+			cardLogo: cardLogo,
+			cornerLogo: cornerLogo,
+			date: "17 Aug",
+		},
+		{
+			cardLogo: cardLogo,
+			cornerLogo: cornerLogo,
+			date: "17 Aug",
+		},
+	];
 </script>
 
 <div class="main">

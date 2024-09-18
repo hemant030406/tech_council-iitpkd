@@ -1,5 +1,5 @@
 <script lang="ts">
-    import logo from "$lib/assets/sacLogo.png";
+    import logo from "$lib/assets/sacLogo.webp";
     import { onMount } from "svelte";
     var ele: HTMLElement;
     // const handleClick = (e: Event) => {

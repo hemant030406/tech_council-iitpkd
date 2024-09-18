@@ -3,16 +3,21 @@
 </script>
 
 <main>
-    <h1>{data.name}</h1>
-    <h3>{data.title}</h3>
-    <p>{data.content}</p>
+<div class="club">
+    <div class="clublogo" style="background-image: url({data.logo})"></div>
+    <div class="clubdesc">
+    <h1 style="margin: 0;">{data.name}</h1>
+    <h3 style="margin: 0;">{data.title}</h3>
+    </div>
+</div>
+    <p style="padding-inline: 1.5rem;">{data.content}</p>
     <h2>Club Heads</h2>
     <div class="secretaries">
         {#each data.heads as head}
             <div class="sec">
                 <figure>
                     <img
-                        src="https://www.actuia.com/wp-content/uploads/2019/07/sam-altman.jpg"
+                        src={head.image}
                         alt="{data.name} Secretary"
                     />
                     <figcaption>{head.name}</figcaption>
@@ -27,6 +32,20 @@
         --w: 70%;
         width: var(--w);
         margin-left: calc((100% - var(--w)) / 2);
+        margin-top: 2rem;
+    }
+    .club{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+    .clublogo {
+        height: 4rem;
+        /* width: 4rem; */
+        aspect-ratio: 1;
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
     }
     img {
         width: 15rem;
@@ -38,6 +57,7 @@
         width: 100%;
         justify-content: center;
     }
+
     h2 {
         width: 100%;
         text-align: center;
@@ -53,7 +73,7 @@
         margin-top: 1em;
         font-weight: bold;
     }
-    a {
+    /* a {
         color: rgb(178, 178, 255);
-    }
+    } */
 </style>
