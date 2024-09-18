@@ -1,15 +1,15 @@
 <script>
-  export let label = "";
-  export let image = ""; // optional image prop
+  export let label;
+  export let image;
 </script>
 
-<div class="club">
+<a href="/clubs/{label}" class="club">
   {#if image}
     <img src={image} alt={label} />
   {:else}
     <span>{label}</span>
   {/if}
-</div>
+</a>
 
 <style>
   .club {
