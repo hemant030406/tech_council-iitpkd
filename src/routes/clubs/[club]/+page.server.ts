@@ -46,7 +46,7 @@ let clubs: {[key: string]: Club}  = {
     'cognifai': {
         name: 'CognifAI',
         title: 'AI-ML Club of IIT PALAKKAD',
-        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga doloribus explicabo repellat nam vel adipisci laborum earum, officiis error modi minus quaerat, libero commodi quas eos dolor ratione fugiat ad!',
+        content: 'CognifAI aims to provide a platform for students to explore, learn, and create with AI, empowering them to understand and contribute to these transformative technologies shaping our world. Our mission is to cultivate a thriving AI culture within IIT Palakkad, where exploration and innovation know no bounds',
         logo: cognifai,
         heads: [
             {
@@ -106,7 +106,7 @@ let clubs: {[key: string]: Club}  = {
     'ydyuthi': {
         name: 'YDyuthi',
         title: 'YDyuthi Club of IIT PALAKKAD',
-        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga doloribus explicabo repellat nam vel adipisci laborum earum, officiis error modi minus quaerat, libero commodi quas eos dolor ratione fugiat ad!',
+        content: 'Y-dyuthi is the official electrical club of IIT Palakkad, it is a place for students to explore their curiosity regarding all things circuits be it analog or digital. The students and members of the club get together to have club discussions about a variety of projects and workshops. Some of the the workshops conducted so far include: (a) Familiarising with the use of DSO. (b) State space modeling- An introduction to control systems. (c) Introduction to designing PCBs using KiCAD. (d) Modeling of DC-DC Buck Convertor using Matlab.',
         logo: ydyuthi,
         heads: [
             {

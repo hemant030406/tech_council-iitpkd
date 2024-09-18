@@ -51,6 +51,7 @@
         width: 15rem;
         aspect-ratio: 1;
         border-radius: 100vh;
+        object-fit: cover;
     }
     .secretaries {
         display: flex;
