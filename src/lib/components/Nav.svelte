@@ -54,6 +54,7 @@
         background: #323232;
         color: white;
         border-radius: 45px;
+        font-size: 28px;
     }
     .navbar a {
         text-decoration: none;
