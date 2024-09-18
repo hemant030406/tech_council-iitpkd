@@ -62,7 +62,7 @@ let clubs: {[key: string]: Club}  = {
     'stellar': {
         name: 'Stellar Society',
         title: 'Astronomy Club of IIT PALAKKAD',
-        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga doloribus explicabo repellat nam vel adipisci laborum earum, officiis error modi minus quaerat, libero commodi quas eos dolor ratione fugiat ad!',
+        content: 'The Stellar Society - Astronomy Club of IIT Palakkad is a student-led club dedicated to exploring the wonders of the universe. Through stargazing sessions, discussions, and workshops, the club provides a platform for students to delve into astronomy, astrophysics, and space exploration. It fosters curiosity and scientific inquiry, inspiring a deeper understanding of the cosmos.',
         logo: stellar,
         heads: [
             {
@@ -74,7 +74,7 @@ let clubs: {[key: string]: Club}  = {
     'finance': {
         name: 'Finance',
         title: 'Finance Club of IIT PALAKKAD',
-        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga doloribus explicabo repellat nam vel adipisci laborum earum, officiis error modi minus quaerat, libero commodi quas eos dolor ratione fugiat ad!',
+        content: 'The Finance Club of IIT Palakkad is dedicated to enhancing financial literacy and fostering a deeper understanding of finance and economics among students. The club organizes workshops, seminars, and competitions on topics like investment strategies, financial markets, and personal finance management, providing a platform for members to develop analytical skills and engage with real-world financial challenges.',
         logo: finance,
         heads: [
             {
@@ -90,7 +90,7 @@ let clubs: {[key: string]: Club}  = {
     'robotics': {
         name: 'Robotics',
         title: 'Robotics Club of IIT PALAKKAD',
-        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga doloribus explicabo repellat nam vel adipisci laborum earum, officiis error modi minus quaerat, libero commodi quas eos dolor ratione fugiat ad!',
+        content: 'The Robotics Club of IIT Palakkad is a student-driven initiative aimed at fostering innovation and hands-on learning in the field of robotics. The club provides a platform for students to explore and develop robotics projects, participate in competitions, and collaborate on cutting-edge technologies, helping members gain practical skills in electronics, mechanics, and programming.',
         logo: robotics,
         heads: [
             {
@@ -105,7 +105,7 @@ let clubs: {[key: string]: Club}  = {
     },
     'ydyuthi': {
         name: 'YDyuthi',
-        title: 'YDyuthi Club of IIT PALAKKAD',
+        title: 'Electrical Club of IIT PALAKKAD',
         content: 'Y-dyuthi is the official electrical club of IIT Palakkad, it is a place for students to explore their curiosity regarding all things circuits be it analog or digital. The students and members of the club get together to have club discussions about a variety of projects and workshops. Some of the the workshops conducted so far include: (a) Familiarising with the use of DSO. (b) State space modeling- An introduction to control systems. (c) Introduction to designing PCBs using KiCAD. (d) Modeling of DC-DC Buck Convertor using Matlab.',
         logo: ydyuthi,
         heads: [
