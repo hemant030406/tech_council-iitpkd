@@ -45,7 +45,7 @@
         height: fit-content;
         padding: 0.5rem;
         border: 2px solid #554b87;
-        border-radius: 10px;
+        border-radius: 20px;
         margin-top: 4rem;
         animation: scatter 0.8s ease-in-out forwards;
         transition: all 0.5s ease-in-out;
@@ -65,7 +65,7 @@
         align-items: center;
         justify-content: center;
         width: 12rem;
-        height: 18rem;
+        aspect-ratio: 2/3;
         padding: 2rem 0;
     }
     .logo {
