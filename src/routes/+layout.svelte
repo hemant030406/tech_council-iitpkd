@@ -3,7 +3,7 @@
 </script>
 
 <main>
-	<Nav />
+	<Nav/>
 	<slot />
 </main>
 

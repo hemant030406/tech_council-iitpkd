@@ -85,7 +85,6 @@
 		font-size: 400%;
 		line-height: 1;
 		width: 60%;
-		font-family: "Roboto";
 	}
 
 	@media (max-width: 650px){
