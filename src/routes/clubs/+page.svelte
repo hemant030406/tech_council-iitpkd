@@ -3,12 +3,12 @@
     import Club from "./cmpt.svelte";
     // import logo from "$lib/assets/logo.png";
     // import logo from "$lib/assets/logo.png";
-    import cognifai from "$lib/assets/cognifai.png";
-    import finance from "$lib/assets/finance.png";
-    import robotics from "$lib/assets/robotics.png";
-    import yacc from "$lib/assets/yacc.png";
-    import stellar from "$lib/assets/stellar.png";
-    import ydyuthi from "$lib/assets/ydyuthi.png";
+    import cognifai from "$lib/assets/cognifai.webp";
+    import finance from "$lib/assets/finance.webp";
+    import robotics from "$lib/assets/robotics.webp";
+    import yacc from "$lib/assets/yacc.webp";
+    import stellar from "$lib/assets/stellar.webp";
+    import ydyuthi from "$lib/assets/ydyuthi.webp";
     // const images = [cognifai, finance, robotics, yacc, stellar, ydyuthi];
     const clubs = {
         cognifai: cognifai,
