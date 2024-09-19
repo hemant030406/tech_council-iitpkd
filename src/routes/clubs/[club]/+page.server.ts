@@ -10,10 +10,9 @@ import Neeraj from '$lib/assets/Neeraj.webp'
 import Asad from '$lib/assets/Asad.webp'
 import Ashish from '$lib/assets/Ashish.webp'
 import Karthikeya from '$lib/assets/Karthikeya.webp'
-import Kaushik from '$lib/assets/Kaushik.webp'
 import Kevin from '$lib/assets/Kevin.webp'
 import Likith from '$lib/assets/Likith.webp'
-import Tirumala from '$lib/assets/Tirumala.webp'
+import Manikantan from '$lib/assets/Manikantan.jpeg'
 
 type Club = {
     name: string;
@@ -92,16 +91,7 @@ let clubs: {[key: string]: Club}  = {
         title: 'Robotics Club of IIT PALAKKAD',
         content: 'The Robotics Club of IIT Palakkad is a student-driven initiative aimed at fostering innovation and hands-on learning in the field of robotics. The club provides a platform for students to explore and develop robotics projects, participate in competitions, and collaborate on cutting-edge technologies, helping members gain practical skills in electronics, mechanics, and programming.',
         logo: robotics,
-        heads: [
-            {
-                name: 'Nilesh Jamre',
-                image: ''
-            },
-            {
-                name: 'Neeraj Krishna N',
-                image: ''
-            }
-        ]
+        heads: []
     },
     'ydyuthi': {
         name: 'YDyuthi',
@@ -110,13 +100,9 @@ let clubs: {[key: string]: Club}  = {
         logo: ydyuthi,
         heads: [
             {
-                name: 'Nilesh Jamre',
-                image: ''
+                name: 'Manikantan',
+                image: Manikantan
             },
-            {
-                name: 'Neeraj Krishna N',
-                image: ''
-            }
         ]
     },
 }

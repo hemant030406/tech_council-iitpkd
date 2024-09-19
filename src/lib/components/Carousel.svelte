@@ -1,13 +1,15 @@
 <script lang="ts">
     import { onDestroy, onMount } from "svelte";
-    import yacc from "$lib/assets/yacc.webp"
-    import finance from "$lib/assets/finance.webp"
-    import robotics from "$lib/assets/robotics.webp"
+    import car1 from "$lib/assets/car1.webp"
+    import car2 from "$lib/assets/car2.webp"
+    import car3 from "$lib/assets/car3.webp"
+    import car4 from "$lib/assets/car4.webp"
 
   let images = [
-    yacc,
-    finance,
-    robotics,
+    car1,
+    car2,
+    car3,
+    car4
   ];
 
   let currentIndex = 0;
@@ -72,9 +74,9 @@
   .carousel {
     position: relative;
     height: 30rem;
-    aspect-ratio: 1;
+    width: 90%;
     overflow: hidden;
-    margin: 2rem;
+    /* margin: 2rem; */
   }
 
   .carousel img {
