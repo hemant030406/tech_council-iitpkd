@@ -1,5 +1,6 @@
 <script lang="ts">
     import { onDestroy, onMount } from "svelte";
+    import award from "$lib/assets/award.webp"
     import techmeet from "$lib/assets/techmeet.webp"
     import risk from "$lib/assets/risk.webp"
     import financeact from "$lib/assets/financeact.webp"
@@ -7,6 +8,7 @@
 
   let images = [
     techmeet,
+    award,
     risk,
     financeact,
     vibe
