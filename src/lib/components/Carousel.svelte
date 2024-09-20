@@ -1,15 +1,15 @@
 <script lang="ts">
     import { onDestroy, onMount } from "svelte";
-    import car1 from "$lib/assets/car1.webp"
-    import car2 from "$lib/assets/car2.webp"
-    import car3 from "$lib/assets/car3.webp"
-    import car4 from "$lib/assets/car4.webp"
+    import techmeet from "$lib/assets/techmeet.webp"
+    import risk from "$lib/assets/risk.webp"
+    import financeact from "$lib/assets/financeact.webp"
+    import vibe from "$lib/assets/vibe.webp"
 
   let images = [
-    car1,
-    car2,
-    car3,
-    car4
+    techmeet,
+    risk,
+    financeact,
+    vibe
   ];
 
   let currentIndex = 0;
@@ -73,7 +73,7 @@
   }
   .carousel {
     position: relative;
-    height: 30rem;
+    height: 40rem;
     width: 90%;
     overflow: hidden;
     /* margin: 2rem; */
@@ -83,6 +83,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
     transition: opacity 1s ease-in-out;
     position: absolute;
     top: 0;
